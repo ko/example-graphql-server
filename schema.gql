@@ -1,0 +1,9 @@
+type Widget {
+  name: String!
+  guid: String
+}
+
+type Query {
+  getWidgets(query: String): [Widget]
+  getWidget(guid: String): Widget
+}
