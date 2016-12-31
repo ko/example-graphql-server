@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "babel-preset-latest": "^6.16.0",
     "babel-register": "^6.18.0",
